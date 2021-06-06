@@ -1,6 +1,8 @@
+/* Navbar */
 #navbar {
     background-color: blue;
     width: 100vw;
+    height: fit-content
 }
 
 #nav-title {
@@ -13,6 +15,7 @@
     text-align: center;
     text-decoration: underline;
     color: #F0EAD6;
+    padding-bottom: 1vw;
 }
 
 #nav-links-wrapper {
@@ -28,9 +31,16 @@
     color: #F0EAD6;
 }
 
+/* Homepage Content*/
+#homepage-content-wrapper {
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
 #homepage-img-wrapper {
     width: 100vw;
-    padding-top: 2vw;
     text-align: center;
 }
 
@@ -39,5 +49,24 @@
     height: 40vw;
     display: inline-block;
     border: solid blue 0.5vw;
-    
+}
+
+#homepage-text-wrapper {
+    width: 100vw;
+    padding-top: 2vw;
+    text-align: center;
+}
+
+#about-us {
+    margin: 0;
+    padding-top: 2vw;
+    text-decoration: underline;
+}
+
+#homepage-text {
+    width: 80vw;
+    height: fit-content;
+    display: inline-block;
+    /* border: solid blue 0.5vw; */
+    /* border: blue solid 0.5vw; */
 }
